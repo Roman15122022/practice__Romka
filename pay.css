@@ -1,0 +1,164 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    line-height: 1.3;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+/*Container*/
+.container{
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+/*Form*/
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: black;
+}
+
+/*Footer*/
+.footer{
+    margin-top: 200px;
+}
+.footer__inst{
+    height: 75px;
+    background-color: #535253;
+}
+.footer__inner{
+    padding-top: 20px;
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+}
+.fa-instagram{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+.footer__local{
+    margin-left: 100px;
+}
+.footer__author:hover {
+    color: white;
+    transition: color .3s linear;
+}
+.fa-instagram:hover {
+    color: white;
+    transition: color .3s linear;
+}
+.footer__local{
+    text-decoration: none;
+    color: black;
+}
+.footer__local:hover{
+    color: white;
+    transition: color .3s linear;
+}
+.footer__author{
+    padding-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer__info{
+    height: 350px;
+    background-color: #424242;
+}
+.footer__in{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__item{
+    margin-top: 80px;
+    width: 40%;
+}
+.footer__title{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+.footer__text{
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    opacity: .6;
+}
+.footer__block{
+    margin-left: 250px;
+}
+.fnav{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.fnav:hover
+span{
+    color: black;
+    font-size: 16px;
+}
+#pay{
+    color: black;
+    background-color: white;
+}
+#pay:hover{
+    color: white;
+    background-color: black;
+}

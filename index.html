@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Cafe Romanka</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@300;500;600;700&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="header__header">
+            <a class="header__logo">Cafe Romanka</a>
+            <div class="header__nav">
+                <a class="nav" href="#header">Головна</a>
+                <a class="nav" href="#menu">Меню</a>
+                <a class="nav" href="#about">Про нас</a>
+                <a class="nav" href="#footer"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
+            </div>
+        </div>
+        <div class="header__content">
+            <h1 class="header__title">Кафе - це місце, де можна відпочити</h1>
+            <h2 class="header__subtitle">Пропонуємо вам відвідати наш ресторан, який існує з 1980-х років<br>
+                чудовий персонал, неймовірний шеф-кухар - все це вразить<br> Вас в ресторані <span
+                        class="header__logo-sb">Cafe Romanka</span></h2>
+        </div>
+    </div>
+</header>
+<section id="about" class="about">
+    <div class="container">
+        <div class="about__content">
+            <div class="about__title">Про нас</div>
+            <div class="about__subtitle">Ласкаво просимо до ресторану з більш як 40-річною історією! Наш
+                ресторан - це місце, де ви зможете насолодитися смачною їжею та приємно провести час з друзями чи
+                родиною.
+                Наш персонал - це професіонали з великим досвідом роботи в галузі гостинності. Вони завжди готові
+                допомогти
+                вам з вибором страв і напоїв, а також забезпечити комфортний сервіс на високому рівні.
+            </div>
+        </div>
+    </div>
+</section>
+<div id="menu" class="word">Меню</div>
+<section class="choose">
+    <div class="container">
+        <div class="choose__choose">
+            <div class="choose__check">
+                <input type="checkbox" id="food" name="food" value="food" checked>
+                <label for="food">Їжа</label><br>
+
+                <input type="checkbox" id="drink" name="drink" value="drink" checked>
+                <label for="drink">Напої</label><br>
+
+                <input type="checkbox" id="dessert" name="dessert" value="dessert">
+                <label for="dessert"> Десерти</label><br>
+            </div>
+            <button id="select" class="choose__btn">Обрати все</button>
+        </div>
+    </div>
+</section>
+<section class="food">
+    <div class="container">
+        <div class="food__food">Їжа</div>
+        <div class="food__after"></div>
+        <div id="food__food" class="food__inner">
+            <div class="food__item">
+                <div onclick="select1()" class="food__box">
+                    <img class="food__img" src="img/food/food1.png" alt="first">
+                    <div class="food__info">
+                        <div class="food__name">Карбонара</div>
+                        <div class="food__price">275 грн</div>
+                        <div class="food__hover">
+                            Карбонара - це традиційна італійська страва, яку придумали в Римі під час Другої світової
+                            війни. Ця страва складається зі спагеті, приготованих з яєчним соусом, беконом (гуанчіале
+                            або панчеттою), сиром Пекоріно Романо і свіжомеленим чорним перцем.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="food__item">
+                <div onclick="select2()" class="food__box">
+                    <img class="food__img" src="img/food/food2.png" alt="second">
+                    <div class="food__info">
+                        <div class="food__name">Узбецький плов</div>
+                        <div class="food__price">325 грн</div>
+                        <div id="food__second" class="food__hover">Узбецький плов - це традиційна страва узбецької
+                            кухні, яка є головною стравою на святах та урочистостях.
+                            є головною стравою на святах та урочистостях. Цю страву готують із довгозернистого
+                            рису, м'яса (зазвичай баранини), моркви, цибулі та спецій, таких як зіра, куркума і
+                            коріандр.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="food__item">
+                <div onclick="select3()" class="food__box">
+                    <img class="food__img" src="img/food/food3.png" alt="third">
+                    <div class="food__info">
+                        <div class="food__name">Стейк с картоплею</div>
+                        <div class="food__price">400 грн</div>
+                        <div id="food__third" class="food__hover">
+                            Стейк із картоплею - це страва, яка поєднує в собі соковитий стейк та ароматну картоплю, і є
+                            однією з найпопулярніших страв в українській кухні. Зазвичай стейк готують із яловичини або
+                            свинини, але можна використовувати й інші види м'яса.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="drink">
+            <div class="drink__drink">Напої</div>
+            <div class="food__after"></div>
+            <div id="food__drink" class="food__inner">
+                <div class="food__item">
+                    <div onclick="select4()" class="food__box">
+                        <img class="drink__img" src="img/food/drink.png" alt="first">
+                        <div class="food__info">
+                            <div class="food__name">Бабл ті</div>
+                            <div class="food__price">120 грн</div>
+                            <div id="food__fourth" class="food__hover">
+                                Бабл ті - це традиційний напій, який популярний в країнах Близького Сходу, включаючи
+                                Україну. Це чай з додаванням м'яти і цукру.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food__item">
+                    <div onclick="select5()" class="food__box">
+                        <img class="drink__img" src="img/food/drink2.png" alt="second">
+                        <div class="food__info">
+                            <div class="food__name"> Карамельний макіато</div>
+                            <div class="food__price">125 грн</div>
+                            <div id="food__fifth" class="food__hover">
+                                Карамельний макіато - це кавовий напій, який поєднує в собі молочну пінку, кавову основу
+                                та солодкий карамельний сироп.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food__item">
+                    <div onclick="select6()" class="food__box">
+                        <img class="drink__img" src="img/food/drink3.png" alt="third">
+                        <div class="food__info">
+                            <div class="food__name">Айс Лате</div>
+                            <div class="food__price">85 грн</div>
+                            <div id="food__sixth" class="food__hover">
+                                Айс лате - це холодний кавовий напій, який поєднує в собі молочну основу та еспресо.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="desert">
+            <div class="desert__desert">Десерти</div>
+            <div class="food__after"></div>
+            <div id="food__desert" class="food__inner">
+                <div class="food__item">
+                    <div onclick="select7()" class="food__box">
+                        <img class="drink__img deserts" src="img/food/desert1.png" alt="first">
+                        <div class="food__info">
+                            <div class="food__name">Вершковий десерт з какао і печивом</div>
+                            <div class="food__price">115 грн</div>
+                            <div id="food__seventh" class="food__hover">
+                                Вершковий десерт з какао і печивом - це смачний та неймовірний десерт, який
+                                складається з вершків, какао та крихіток печива.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food__item">
+                    <div onclick="select8()" class="food__box">
+                        <img class="drink__img" src="img/food/desert2.png" alt="second">
+                        <div class="food__info">
+                            <div class="food__name">Тірамісу<br>(Класика)</div>
+                            <div class="food__price">95 грн</div>
+                            <div id="food__eighth" class="food__hover">
+                                Тірамісу - це класичний італійський десерт, який складається з м'якого крему на основі
+                                маскарпоне, просоченого в сильному еспресо кави бісквіту савоярді та порошку какао.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food__item">
+                    <div onclick="select9()" class="food__box">
+                        <img class="drink__img deserts" src="img/food/desert3.png" alt="third">
+                        <div class="food__info">
+                            <div class="food__name">Карамельний десерт з морозивом</div>
+                            <div class="food__price">90 грн</div>
+                            <div id="food__ninth" class="food__hover">
+
+                                Карамельний десерт з морозивом - це екзотичне поєднання, яке точно не залишить байдужим
+                                будь-якого любителя солодкого. Цей десерт складається з карамелізованого бісквіту,
+                                свіжого морозива та легкої карамельної підливи.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="food__cost">
+            <div class="cost__cont">
+                <div class="cost__text"> Ви обрали на:</div>
+                <div id="num" class="cost__num">0 грн</div>
+            </div>
+            <button id="cost" class="choose__btn">Підрахувати</button>
+            <button id="pay" class="choose__btn">Сплатити</button>
+        </div>
+    </div>
+</section>
+<footer id="footer" class="footer">
+    <div class="footer__inst">
+        <div class="container">
+            <div class="footer__inner">
+                <a href="https://instagram.com/malkin._.u?igshid=MzRlODBiNWFlZA==" target="_blank"
+                   class="fa-brands fa-instagram"></a>
+                <a href="https://instagram.com/malkin._.u?igshid=MzRlODBiNWFlZA==" target="_blank" class="footer__author">Malyi
+                    Roman</a>
+                <a href="https://www.google.com/maps/place/%D0%BF%D1%80%D0%BE%D1%81%D0%BF.+%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%86%D0%B8%D0%B8,+4,+%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B5,+%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+51909/@48.4791528,34.6631371,18.08z/data=!4m9!1m2!2m1!1sgoogle+cafe+ukraine!3m5!1s0x40dbdceb64695263:0x83f17cd9de93db54!8m2!3d48.4794567!4d34.6639342!16s%2Fg%2F1tcy7dxq"
+                   target="_blank" class="footer__local">Location: <i class="fa-solid fa-location-crosshairs"></i></a>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer__info">
+        <div class="container">
+            <div class="footer__in">
+                <div class="footer__item">
+                    <div class="footer__title">Дякуємо,що обрали нас!</div>
+                    <div class="footer__text">Відкрийте для себе світ дивовижних смаків і запахів, які тільки наші
+                        десерти можуть запропонувати. Ми пишаємося тим, що використовуємо тільки найкращі інгредієнти та
+                        традиційні рецепти, щоб створювати справжні шедеври кулінарії. Наша місія - потішити ваші
+                        смакові рецептори та подарувати вам незабутні враження. Приготуйтеся до незабутньої подорожі у
+                        світ солодощів!"
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__block">
+                        <a class="fnav" href="#">| <span>privacy</span> |</a>
+                        <a class="fnav" href="#"> <span>about</span> |</a>
+                        <a class="fnav" href="#"><span>contact</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://kit.fontawesome.com/706ab81ed5.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>

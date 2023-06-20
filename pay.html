@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="pay.css">
+    <title>Payment</title>
+</head>
+<body>
+<div class="form-container">
+  <form>
+    <h2>Оформлення замовлення</h2>
+
+    <div class="form-group">
+      <label for="name">Ім'я:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Номер телефону:</label>
+      <input type="tel" id="phone" name="phone" required>
+    </div>
+
+    <div class="form-group">
+      <label for="address">Адреса:</label>
+      <input type="text" id="address" name="address" required>
+    </div>
+
+    <div class="form-group">
+      <label for="card-number">Номер банківської картки:</label>
+      <input type="text" id="card-number" name="card-number" required>
+    </div>
+
+    <button onclick="alertion()" type="submit" class="submit-button">Сплатити</button>
+  </form>
+</div>
+
+
+<footer id="footer" class="footer">
+  <div class="footer__inst">
+    <div class="container">
+      <div class="footer__inner"></div>
+    </div>
+  </div>
+  <div class="footer__info">
+    <div class="container">
+      <div class="footer__in">
+        <div class="footer__item">
+          <div class="footer__title">Дякуємо,що обрали нас!</div>
+          <div class="footer__text">Відкрийте для себе світ дивовижних смаків і запахів, які тільки наші
+            десерти можуть запропонувати. Ми пишаємося тим, що використовуємо тільки найкращі інгредієнти та
+            традиційні рецепти, щоб створювати справжні шедеври кулінарії. Наша місія - потішити ваші
+            смакові рецептори та подарувати вам незабутні враження. Приготуйтеся до незабутньої подорожі у
+            світ солодощів!"
+          </div>
+        </div>
+        <div class="footer__item">
+          <div class="footer__block">
+            <a class="fnav" href="#">| <span>privacy</span> |</a>
+            <a class="fnav" href="#"> <span>about</span> |</a>
+            <a class="fnav" href="#"><span>contact</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
