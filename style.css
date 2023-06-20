@@ -483,11 +483,19 @@ span{
     font-size: 16px;
 }
 #pay{
-    color: black;
-    background-color: white;
-}
-#pay:hover{
     color: white;
     background-color: black;
 }
+#pay:hover{
+    color: black;
+    background-color: white;
+}
 
+#cost{
+    color: black;
+    background-color: white;
+}
+#cost:hover{
+    color: white;
+    background-color: black;
+}
